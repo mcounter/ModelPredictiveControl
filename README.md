@@ -64,4 +64,4 @@ The main program can be built and run by doing the following from the project to
 
 * [main.cpp](./src/main.cpp) - Main class, starts web-service to process sensors data from simulator, prepare data (vehicle position, velocity, effective control values, target trajectory), pass it to MPC class and pass updated control values back to simulator. Additionally it pass information which helps simulator visualize target path and predicted vehicle trajectory.
 * [MPC.h](./src/MPC.h), [MPC.cpp](./src/MPC.cpp) - MPC implementation.
-* [Eigen](./src/Eigen) - Eigen math library.
+* [Eigen-3.3](./src/Eigen-3.3) - Eigen math library.
